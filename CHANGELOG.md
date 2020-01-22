@@ -1,6 +1,10 @@
 CHANGELOG for python-postmark
 ===============================
 
+Version 0.5.2+maestro1
+----------------------
+- Forked. Updated validation to allow sending messages with no "To" field but "BCC".
+
 Version 0.5.2
 --------------
 - EmailMultiAlternatives content_subtype fix (PR #82)
